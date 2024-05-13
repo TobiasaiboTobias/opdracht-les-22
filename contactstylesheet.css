@@ -1,0 +1,91 @@
+body{
+    background-color: #656d4a;
+}
+header{
+    padding: 10px;
+    background-color: #132d46;
+    color: wheat;
+    height: 100px;
+    text-align: center;
+}
+
+.midden{
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: purple;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #132d46;
+    color: wheat;
+    text-align: center;
+    margin-top: 70px;
+}
+
+input[type="text"], input[type="email"], input[type="textarea"]{
+    width: 100%;
+    background-color: wheat;
+}
+
+textarea{
+    width: 100%;
+    background-color: wheat;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover{
+    background-color: white;
+}
+
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    background-color: #b5838d;
+}
+
+tr{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.vraag{
+    width: 50px;
+}
+
+.tekst{
+    height: 200px;
+}
+
+.antwoord{
+    width: 50px;
+}
+
+button[type="button"]{
+    border: 3px solid black;
+    margin-top: 5px;
+}
+
+button[type="button"]:hover{
+    border: 3px solid black;
+    margin-top: 5px;
+    background-color: purple;
+}
+
+button[type="button"]:active{
+    border: 3px solid black;
+    margin-top: 5px;
+    background-color:white;
+}
+
+.container-sm{
+    width: 100%;
+}
